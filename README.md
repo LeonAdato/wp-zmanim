@@ -1,16 +1,7 @@
-=== WP_Zmanim ===
-Contributors: @adatosystems
-Donate link: https://ko-fi.com/leonadato
-Tags: Jewish, Time, Zmanim, Holidays, Shabbat, Prayer, Tefillot, Davening
-Requires at least: 3.0.1
-Tested up to: 6.4
-Stable tag: 4.3
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Choose from a variety of shitot (opinions), use shortcodes (with options) to display those times in posts, pages, and widgets. With gratitude to Eliyahu Hershfeld, Zachary Weixelbaum, and Elyahu Jacobi.
 
-== Description ==
+## Description
 This plugin presents an admin panel with dropdowns to select from a variety of shitot (opinions) on time calculation, and provides shortcodes (with options) to display those times in posts, pages, and widgets.
 
 It would not be possible without the amazing [kosher java](https://github.com/KosherJava/zmanim) library by [Eliyahu Hershveld](https://kosherjava.com/), which has been [ported to PHP](https://github.com/zachweix/PhpZmanim) by the incredible [Zachary Weixelbaum](https://www.linkedin.com/in/zachweix/).  
