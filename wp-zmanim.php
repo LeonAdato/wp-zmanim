@@ -617,9 +617,9 @@ function kosherzmanim_init() {
     $zmanim = Zmanim::create($zmanargs[0], $zmanargs[1], $zmanargs[2], "", $zmanargs[3], $zmanargs[4], 0, $zmanargs[5]);
     $output = $zmanim->sunrise;
     if ($atts['offset'] <> 0 ) { 
-      $output = date($atts['format'], strtotime($output . " +" .$atts['offset'] ." minutes"));
+      $output = date($atts['dateformat'], strtotime($output . " +" .$atts['offset'] ." minutes"));
     } else { 
-      $output = date($atts['format'], strtotime($output)); }
+      $output = date($atts['dateformat'], strtotime($output)); }
     return $output;
   }
   function sunset_handler($atts = []) {
@@ -628,9 +628,9 @@ function kosherzmanim_init() {
     $zmanim = Zmanim::create($zmanargs[0], $zmanargs[1], $zmanargs[2], "", $zmanargs[3], $zmanargs[4], 0, $zmanargs[5]);
     $output = $zmanim->sunset;
     if ($atts['offset'] <> 0 ) { 
-      $output = date($atts['format'], strtotime($output . " +" .$atts['offset'] ." minutes"));
+      $output = date($atts['dateformat'], strtotime($output . " +" .$atts['offset'] ." minutes"));
     } else { 
-      $output = date($atts['format'], strtotime($output)); }
+      $output = date($atts['dateformat'], strtotime($output)); }
     return $output;
   }
   function candles_handler($atts = []) {
